@@ -9,13 +9,13 @@ layout: home
   <title>Move Embedded Iframe to the Left Example</title>
   <style>
     .iframe-container {
-      margin-left: -5cm;
+      margin-left: -6cm;
     }
   </style>
 </head>
 <body>
   <div class="iframe-container">
-    <iframe src="https://www.wolframcloud.com/obj/614d1604-a091-4c9b-ba14-ae14488521e6?_embed=iframe" width="1200" height="600"></iframe>
+    <iframe src="https://www.wolframcloud.com/obj/360b1d97-74d0-4300-a5fd-f64ea20ba3b0?_embed=iframe" width="1200" height="800"></iframe>
   </div>
 </body>
 
