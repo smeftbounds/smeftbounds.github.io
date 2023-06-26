@@ -1,5 +1,6 @@
 ---
 layout: page
-#title: About
-#permalink: /about/
+title: Submit bounds
+permalink: /about/
 ---
+Template
