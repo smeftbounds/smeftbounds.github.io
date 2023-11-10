@@ -15,7 +15,7 @@ layout: home
 </head>
 <body>
   <div class="iframe-container">
-    <iframe src="https://www.wolframcloud.com/obj/c4e03387-596d-41c8-a865-2d26bb6ac41f?_embed=iframe" width="1200" height="1200"></iframe>
+   <iframe src="https://www.wolframcloud.com/obj/b9ec6ee4-b9b8-493f-b11c-3e055f54b14b?_embed=iframe" width="1200" height="1200"></iframe>
   </div>
 </body>
 
