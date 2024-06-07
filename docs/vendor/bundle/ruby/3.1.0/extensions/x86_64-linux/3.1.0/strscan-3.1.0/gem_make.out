@@ -1,0 +1,20 @@
+current directory: /home/sdb/Dropbox/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/home/sdb/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /home/sdb/Dropbox/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240607-637331-jfejj2 sitelibdir\=./.gem.20240607-637331-jfejj2 clean
+
+current directory: /home/sdb/Dropbox/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240607-637331-jfejj2 sitelibdir\=./.gem.20240607-637331-jfejj2
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/sdb/Dropbox/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240607-637331-jfejj2 sitelibdir\=./.gem.20240607-637331-jfejj2 install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240607-637331-jfejj2
+
+current directory: /home/sdb/Dropbox/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240607-637331-jfejj2 sitelibdir\=./.gem.20240607-637331-jfejj2 clean
