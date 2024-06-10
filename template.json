@@ -1,14 +1,20 @@
 {
   "observable_name": "my_obs_name", 
-  "arxiv": "2012.02779", 
-  "reportnumber": "KCL-PH-TH/2020-73, CERN-TH-2020-202", 
-  "DOI": "https://doi.org/10.1007/JHEP04(2021)279", 
-  "date": "2021/04/08", 
-  "experiment": "LEP, Tevatron, CERN LHC Run I+II", 
-  "description": "Individual global fit limits from Tab. 6 of Top, Higgs, Diboson and Electroweak Fit to the Standard Model Effective Field Theory", 
+  "arxiv": "",
+  "reportnumber": "",
+  "DOI": "",
+  "date": "",
+  "experiment": "LEP, Tevatron, CERN LHC Run I+II",
+  "description": "Paper title etc",
   "CL": "95",
   "limits": {
     "CHWB": [ -0.0043, 0.0026  ],
-    "Ctd8": [-2.5 , 0.38  ]
-  } 
+    "Ctd8": [-2.5 , 0.38  ],
+    "more": [-0,0],
+    "more": [-0,0],
+    "more": [-0,0],
+    "more": [-0,0],
+    "more": [-0,0],
+    "more": [-0,0]
+  }
 }
