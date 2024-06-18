@@ -3,28 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ Visitor Counter }}</title>
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ "/" | relative_url }}">Home</a></li>
-                <li><a href="{{ "/about/" | relative_url }}">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        {{ content }}
-    </main>
     <footer>
         <div class="contact-section2">
-            <p>This is the contact section with justified text. The visitor counter is below:</p>
             <p id="visitorCount">Loading...</p>
         </div>
     </footer>
