@@ -7,12 +7,11 @@
   "experiment": "LEP, Tevatron, CERN LHC Run I+II",
   "description": "Paper title etc",
   "CL": "95",
+  "order": "D6lin|D6quad",
+  "type": "1D|global", 
   "limits": {
-    "CHWB": [ -0.0043, 0.0026  ],
-    "Ctd8": [-2.5 , 0.38  ],
-    "more": [-0,0],
-    "more": [-0,0],
-    "more": [-0,0],
+    "CHWB": [ -0.01, 0.01  ],
+    "CHB": [-1000 , 1000  ],
     "more": [-0,0],
     "more": [-0,0],
     "more": [-0,0]

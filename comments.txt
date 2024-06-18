@@ -1,0 +1,3 @@
+# added CuHtilde as a Wilson coefficient which denotes the imaginary part of CuH
+# added "type" as a mandatory field which has to take one of the values "1D" and "global"
+# added "order" as a mandatory field which has to take one of the values "D6lin" or "D6quad" to show if the quadratic terms have been included in the fit 
