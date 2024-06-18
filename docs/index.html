@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+
     <title>smeftbounds</title>
     <style>
         body {
@@ -73,6 +77,14 @@
             font-size: 24px;
         }
         
+        .contact-section2 {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+        }
+      
+        
          .button2 {
            display: block;
             margin-top: 20px;
@@ -95,6 +107,28 @@
             transform: translateY(4px);
         }
         
+       .button3 {
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #808080; /* Sea green color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+	.button3:hover {
+    background-color: #3cb371; /* Darker sea green on hover */
+}
+
+.button3:active {
+    background-color: #2e8b57; /* Return to original sea green when active */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+        
     </style>
 </head>
 <body>
@@ -113,14 +147,20 @@
         <a href="submit.html" class="button2"> Submit Bounds </a>
    </div>    
    
-   
+
 
 <div style="height: 50px;"></div>
 
 <div class="contact-section">
     <p> Send your comments at: Supratim Das Bakshi (sdbakshi13@gmail.com), Anke Biek&oumltter (biekoetter.anke@gmail.com)</p>
 </div>    
-  
+
+
+   <div class="container">
+        <div style="height: 60px;"></div>
+        <a href="count/count.html" class="button3"> Visitor count </a>
+   </div>        
+   
    
 </body>
 </html>

@@ -1,0 +1,18 @@
+current directory: /Users/sdb/Library/CloudStorage/Dropbox/SMEFTbounds2/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/Users/sdb/.rubies/ruby-3.1.3/bin/ruby -I /Users/sdb/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/sdb/Library/CloudStorage/Dropbox/SMEFTbounds2/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240618-69998-mbwc7t sitelibdir\=./.gem.20240618-69998-mbwc7t clean
+
+current directory: /Users/sdb/Library/CloudStorage/Dropbox/SMEFTbounds2/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240618-69998-mbwc7t sitelibdir\=./.gem.20240618-69998-mbwc7t
+compiling strscan.c
+linking shared-object strscan.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/sdb/Library/CloudStorage/Dropbox/SMEFTbounds2/SSSSS/smeftbounds/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240618-69998-mbwc7t sitelibdir\=./.gem.20240618-69998-mbwc7t install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240618-69998-mbwc7t
