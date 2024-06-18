@@ -38,3 +38,5 @@ gem "kramdown-parser-gfm"
 gem 'public_suffix', '5.1.1'
 gem 'concurrent-ruby', '1.3.3'
 
+
+gem "rackup", "~> 2.1"

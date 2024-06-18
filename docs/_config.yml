@@ -21,6 +21,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Jekyll configuration file
+jekyll:
+  # ... other jekyll settings ...
+  # ... 
+  # ...
+  routes:
+    - /counter: /counter.rb  # Example route
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -38,3 +46,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
