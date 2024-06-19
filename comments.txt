@@ -1,3 +1,5 @@
 # added CuHtilde as a Wilson coefficient which denotes the imaginary part of CuH
 # added "type" as a mandatory field which has to take one of the values "1D" and "global"
-# added "order" as a mandatory field which has to take one of the values "D6lin" or "D6quad" to show if the quadratic terms have been included in the fit 
+# added "order" as a mandatory field which has to take one of the values "D6lin" or "D6quad" to show if the quadratic terms have been included in the fit
+# allow to enter multiple limits from same fit? If so, how to distinguish. Came up because of multiple limits on CW in Tab.7/8 of https://arxiv.org/pdf/2405.19083
+# add perturbative order as additional field? LO, NLO QCD, NLO

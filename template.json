@@ -4,9 +4,13 @@
   "reportnumber": "",
   "DOI": "",
   "date": "",
+  "contribution": "theory|exp",
+  "lumi": "",
+  "energy": "",
   "experiment": "LEP, Tevatron, CERN LHC Run I+II",
   "description": "Paper title etc",
   "CL": "95",
+  "normalization": "1000",
   "order": "D6lin|D6quad",
   "type": "1D|global", 
   "limits": {
