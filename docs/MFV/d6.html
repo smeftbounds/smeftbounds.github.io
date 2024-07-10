@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		extensions: ["cancel.js"]
+	});
+    </script>
+    <title>Warsaw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin-top: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 10vh;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .button-container {
+	    text-align: center; /* Align buttons to center */
+	}
+	.button {
+	    display: inline-block;
+	    padding: 15px 30px;
+	    margin: 10px;
+	    font-size: 1.2em;
+	    color: white;
+	    background-color: #007bff;
+	    border: none;
+	    border-radius: 5px;
+	    text-decoration: none;
+	    cursor: pointer;
+	    transition: background-color 0.3s, transform 0.3s;
+	}
+	.button:hover {
+	    background-color: #0056b3;
+	    transform: scale(1.05);
+	}
+	.button:active {
+	    background-color: #003d80;
+	    transform: scale(1);
+	}
+	
+	.contact-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+        }
+
+        .contact-section h2 {
+            font-size: 32px;
+        }
+
+        .contact-section p {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+	
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1> <u> SMEFTsim MFV </u>  </h1>
+<!--        <p>Warsaw basis bounds</p> -->
+    </div>
+    
+    
+    <div style="height: 100px;"></div>
+    
+    
+    <div class="button-container">
+    <a href="d6bounds/x3.html" class="button">\(X^3\)</a>
+    <a href="d6bounds/h6.html" class="button">\(H^6\)</a>
+    <a href="d6bounds/h4d2.html" class="button">\(H^4D^2\)</a>
+    <a href="d6bounds/p2h3.html"  class="button">\(\psi^2H^3\)</a>
+    <a href="d6bounds/x2h2.html"   class="button">\(X^2H^2\)</a>
+    <a href="d6bounds/p2xh.html"   class="button">\(\psi^2XH\)</a>
+    <a href="d6bounds/p2h2d.html"  class="button">\(\psi^2H^2D\)</a>
+</div>
+    
+        <div class="button-container">
+    <a href="d6bounds/p4llll.html"   class="button">\(\psi^4_{LLLL}\)</a>
+    <a href="d6bounds/p4rrrr.html"   class="button">\(\psi^4_{RRRR}\)</a>
+    <a href="d6bounds/p4llrr.html"   class="button">\(\psi^4_{LLRR}\)</a>
+    <a href="d6bounds/p4lrrl.html"   class="button">\(\psi^4_{LRRL}\)</a>
+    <a href="d6bounds/p4lrlr.html"   class="button">\(\psi^4_{LRLR}\)</a>
+    <a href="d6bounds/p4blv.html"   class="button">\(\psi^4_{\cancel{B}\cancel{L}}\)</a>
+</div>
+
+
+<div style="height: 100px;"></div>
+
+
+
+<div class="contact-section">
+    <p> Wilson coefficient naming conventions: <a href="../bdef/bdef.pdf" class="button3">see here</a> </p>
+</div>    
+    
+
+
+
+
+</body>
+</html>
+

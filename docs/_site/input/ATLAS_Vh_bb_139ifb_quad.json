@@ -1,0 +1,20 @@
+{
+  "observable_name": "ATLAS_Vh_bb_139ifb", 
+  "arxiv": "2007.02873", 
+  "reportnumber": "CERN-EP-2020-087", 
+  "DOI": "http://dx.doi.org/10.1140/epjc/s10052-020-08677-2", 
+  "date": "2021/03/09", 
+  "experiment": "ATLAS, LHC Run II", 
+  "description": "{Measurements of $WH$ and $ZH$ production in the $H \rightarrow b\bar{b}$ decay channel in $pp$ collisions at 13 TeV with the ATLAS detector}", 
+  "CL": "68",
+  "order": "D6quad",
+  "type": "1D",
+  "comment": "extracted from Fig. 9",
+  "limits": {
+    "CHq3": [ -0.0018, 0.0026  ],
+    "CHu":  [-0.038, 0.02  ],
+    "CHW":  [-0.12, 0.09  ],
+    "CHWB":  [-0.88, 2.2  ],
+    "CdH":  [[-580, 76  ],[580, 860] ]
+  } 
+}

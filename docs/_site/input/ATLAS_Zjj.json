@@ -1,0 +1,18 @@
+{
+  "observable_name": "ATLAS_Zjj_2020", 
+  "arxiv": "2006.15458", 
+  "reportnumber": "CERN-EP-2020-045", 
+  "DOI": "http://dx.doi.org/10.1140/epjc/s10052-020-08734-w", 
+  "date": "2021/04/07", 
+  "experiment": "ATLAS, LHC", 
+  "description": "Differential cross-section measurements for the electroweak production of dĳets in association with a Z boson in proton–proton collisions at ATLAS", 
+  "CL": "95",
+  "order": "D6lin",
+  "type": "1D",
+  "limits": {
+    "CW": [ -0.19 , 0.41  ],
+    "CWtilde": [ -0.11 , 0.14  ],
+    "CHWB": [-3.78 , 1.13  ],
+    "CHWBtilde": [0.23 , 2.34  ]
+  } 
+}
