@@ -1,0 +1,25 @@
+observable_name: "ATLAS_Zjj_2020" 
+arxiv: "2006.15458" 
+reportnumber: "CERN-EP-2020-045" 
+DOI: "http://dx.doi.org/10.1140/epjc/s10052-020-08734-w" 
+date: "2021/04/07" 
+comment: "Limits from Tab. 4"
+# change name of contribution? source? origin?
+contribution: "exp" # theory|exp
+experiment: "ATLAS"
+# description can be paper title 
+description: "Differential cross-section measurements for the electroweak production of dĳets in association with a Z boson in proton–proton collisions at ATLAS" 
+CL: "95" # confidence level
+order: "D6lin" # D6lin|D6quad 
+type: "1D" # 1D|global
+# Limits are given in WCxf format https://wcxf.github.io/, see also arXiv:1712.05298
+limits: 
+  eft: SMEFT
+  basis: Warsaw # find bases here or define your own: https://wcxf.github.io/bases.html
+  scale: 91
+  values:
+    # note that the new physics scale Lambda is implicit such that values are given in GeV^-2. Multiply your dimensionless limits by 1e-6 for Lambda=1TeV.
+    W: [ -0.19e-6 , 0.41e-6  ]
+    Wtilde: [ -0.11e-6 , 0.14e-6  ]
+    phiWB: [-3.78e-6 , 1.13e-6  ]
+    phiWtildeB: [0.23e-6 , 2.34e-6  ]
