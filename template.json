@@ -10,6 +10,7 @@
   "lumi": "",
   "collider energy": "",
   "description": "Paper title etc",
+  "comments": "Anything else that might be relevant goes here.",
   "CL": "95",
   "EFT in WCxf": "SMEFT|WET",
   "basis in WCxf": "SMEFTsim_MFV|SMEFTsim_U35|SMEFTsim_general|SMEFTsim_top|SMEFTsim_topU3l|Warsaw|Warsaw up",
